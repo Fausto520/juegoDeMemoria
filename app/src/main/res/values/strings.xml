@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">juegoDeMemoria</string>
+    <string name="titulo_juego">Prueba tu memoria</string>
+    <string name="text_btnJugar"> Jugar </string>
+    <string name="text_btnsalirJuego">Salir</string>
+    <string name="imagen_juego">imagen juego</string>
+    <string name="reiniciar_juegotetxt">Reiniciar</string>
+    <string name="txt_puntuacion">"Puntuación: "</string>
+</resources>

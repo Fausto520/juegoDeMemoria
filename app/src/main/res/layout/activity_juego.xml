@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#673AB7"
+    tools:context=".juegoActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageB11"
+                android:layout_width="@dimen/ancho_imagen"
+                android:layout_height="@dimen/alto_imagen"
+                android:layout_margin="@dimen/margen_imagen"
+                android:contentDescription="@string/imagen_juego"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fondo" />
+
+            <ImageButton
+                android:id="@+id/imageB12"
+                android:layout_width="@dimen/ancho_imagen"
+                android:layout_height="@dimen/alto_imagen"
+                android:layout_margin="@dimen/margen_imagen"
+                android:contentDescription="@string/imagen_juego"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fondo" />
+
+            <ImageButton
+                android:id="@+id/imageB13"
+                android:layout_width="@dimen/ancho_imagen"
+                android:layout_height="@dimen/alto_imagen"
+                android:layout_margin="@dimen/margen_imagen"
+                android:contentDescription="@string/imagen_juego"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fondo" />
+
+            <ImageButton
+                android:id="@+id/imageB14"
+                android:layout_width="@dimen/ancho_imagen"
+                android:layout_height="@dimen/alto_imagen"
+                android:layout_margin="@dimen/margen_imagen"
+                android:contentDescription="@string/imagen_juego"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fondo" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageB21"
+                android:layout_width="@dimen/ancho_imagen"
+                android:layout_height="@dimen/alto_imagen"
+                android:layout_margin="@dimen/margen_imagen"
+                android:contentDescription="@string/imagen_juego"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fondo" />
+
+            <ImageButton
+                android:id="@+id/imageB22"
+                android:layout_width="@dimen/ancho_imagen"
+                android:layout_height="@dimen/alto_imagen"
+                android:layout_margin="@dimen/margen_imagen"
+                android:contentDescription="@string/imagen_juego"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fondo" />
+
+            <ImageButton
+                android:id="@+id/imageB23"
+                android:layout_width="@dimen/ancho_imagen"
+                android:layout_height="@dimen/alto_imagen"
+                android:layout_margin="@dimen/margen_imagen"
+                android:contentDescription="@string/imagen_juego"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fondo" />
+
+            <ImageButton
+                android:id="@+id/imageB24"
+                android:layout_width="@dimen/ancho_imagen"
+                android:layout_height="@dimen/alto_imagen"
+                android:layout_margin="@dimen/margen_imagen"
+                android:contentDescription="@string/imagen_juego"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fondo" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageB31"
+                android:layout_width="@dimen/ancho_imagen"
+                android:layout_height="@dimen/alto_imagen"
+                android:layout_margin="@dimen/margen_imagen"
+                android:contentDescription="@string/imagen_juego"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fondo" />
+
+            <ImageButton
+                android:id="@+id/imageB32"
+                android:layout_width="@dimen/ancho_imagen"
+                android:layout_height="@dimen/alto_imagen"
+                android:layout_margin="@dimen/margen_imagen"
+                android:contentDescription="@string/imagen_juego"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fondo" />
+
+            <ImageButton
+                android:id="@+id/imageB33"
+                android:layout_width="@dimen/ancho_imagen"
+                android:layout_height="@dimen/alto_imagen"
+                android:layout_margin="@dimen/margen_imagen"
+                android:contentDescription="@string/imagen_juego"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fondo" />
+
+            <ImageButton
+                android:id="@+id/imageB34"
+                android:layout_width="@dimen/ancho_imagen"
+                android:layout_height="@dimen/alto_imagen"
+                android:layout_margin="@dimen/margen_imagen"
+                android:contentDescription="@string/imagen_juego"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fondo" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageB41"
+                android:layout_width="@dimen/ancho_imagen"
+                android:layout_height="@dimen/alto_imagen"
+                android:layout_margin="@dimen/margen_imagen"
+                android:contentDescription="@string/imagen_juego"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fondo" />
+
+            <ImageButton
+                android:id="@+id/imageB42"
+                android:layout_width="@dimen/ancho_imagen"
+                android:layout_height="@dimen/alto_imagen"
+                android:layout_margin="@dimen/margen_imagen"
+                android:contentDescription="@string/imagen_juego"
+
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fondo" />
+
+            <ImageButton
+                android:id="@+id/imageB43"
+                android:layout_width="@dimen/ancho_imagen"
+                android:layout_height="@dimen/alto_imagen"
+                android:layout_margin="@dimen/margen_imagen"
+                android:contentDescription="@string/imagen_juego"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fondo" />
+
+            <ImageButton
+                android:id="@+id/imageB44"
+                android:layout_width="@dimen/ancho_imagen"
+                android:layout_height="@dimen/alto_imagen"
+                android:layout_margin="@dimen/margen_imagen"
+                android:contentDescription="@string/imagen_juego"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fondo" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnJuegoSalir"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/colorAccent"
+        android:onClick="salirJuego"
+        android:text="@string/text_btnsalirJuego"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+    <Button
+        android:id="@+id/btnReiniciar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/colorAccent"
+        android:onClick="reiniciarJuego"
+        android:text="@string/reiniciar_juegotetxt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <TextView
+        android:id="@+id/text_puntuacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_puntuacion"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/btnReiniciar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+</androidx.constraintlayout.widget.ConstraintLayout>
